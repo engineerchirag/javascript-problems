@@ -10,7 +10,7 @@ var question = `
 
 var fn = `
   // Infinite currying which uses valueOf property of an Object
-  
+
   const sum = (...prevArgs) => {
     var res = (...nextArgs) => sum(...nextArgs, ...prevArgs);
     res.valueOf = () => prevArgs.reduce((a,b) => a + b );
