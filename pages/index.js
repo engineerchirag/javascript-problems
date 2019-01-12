@@ -76,5 +76,14 @@ export default () => (
         </Link>
       </li>
     </ul>
+
+    <h2>Random</h2>
+    <ul>
+      <li>
+        <Link href="random/1">
+          <a>Random 1</a>
+        </Link>
+      </li>
+    </ul>
   </div>
 );

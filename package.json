@@ -1,5 +1,5 @@
 {
-  "name": "Javascript Problems",
+  "name": "javascript-problems",
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
@@ -12,5 +12,7 @@
     "react-dom": "^16.0.0",
     "react-syntax-highlighter": "10.1.2"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": [],
+  "description": "Js fundamentals, Js Games etc"
 }
